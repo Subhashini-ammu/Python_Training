@@ -1,0 +1,14 @@
+Test cases for greatest of three numbers:
+
+		Test cases				Expected output							Actual Output
+
+1. Check whether the function is present or not.	Present								Present
+2. num1=1, num2=1, num3=1				Numbers 1.0, 1.0 and 1.0 are equal				Numbers 1.0, 1.0 and 1.0 are equal
+3. num1=5, num2=3, num3=2				5.0 is the greater number than 3.0 and 2.0			5.0 is the greater number than 3.0 and 2.0				
+4. num1=3, num2=10, num3=5				10.0 is the greater number than 3.0 and 5.0			10.0 is the greater number than 3.0 and 5.0
+5. num1=0.9, num2=2, num3=6				6.0 is the greater number than 0.9 and 2.0			6.0 is the greater number than 0.9 and 2.0
+6. num1=1.5, num2=1.5, num3=3.6				3.6 is the greater number than 1.5 and 1.5			3.6 is the greater number than 1.5 and 1.5
+7. num1=-2.3, num2=2.5, num3=2.5			Numbers 2.5 and 2.5  are equal and greater than 2.3		Numbers 2.5 and 2.5  are equal and greater than 2.3
+8. num1=-18, num2=-30, num3=-18				Numbers -18.0 and -18.0  are equal and greater than -30.0	Numbers -18.0 and -18.0  are equal and greater than -30.0
+9. num1=-10.2, num2=11.2, num3=-10.2			11.2 is the greater number than -10.2 and -10.2			11.2 is the greater number than -10.2 and -10.2
+10. num1= a, num2= 11, num3=1				Error!!!! Please enter valid numbers.								Error
